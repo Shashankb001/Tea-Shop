@@ -41,8 +41,8 @@ pip install -r requirements.txt
 DEBUG=True
 SECRET_KEY=your_django_secret_key
 DATABASE_URL=postgres://username:password@localhost:5432/tea_shop_db
-STRIPE_PUBLIC_KEY=your_stripe_public_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
+RAZORPAY_KEY_ID=your_razorpay_key_id
+RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
 ALLOWED_HOSTS=localhost,127.0.0.1
 ```
